@@ -3,11 +3,23 @@
     <head>
         <meta charset="utf-8">
         <title>SVG Animation</title>
+        <link rel="stylesheet" href="styles.css">
     </head>
     <body>
         <h1>SVG Animation Test</h1>
         <div class="container">
-
+            <svg height="100" width="100">
+                <circle cx="50" cy="50" r="40" fill="#000000">
+                    <animate
+                        attributeType="XML"
+                        attributeName="r"
+                        from="40"
+                        to="0"
+                        dur="6s"
+                        repeatCount="indefinite"
+                    />
+                </circle>
+            </svg>
         </div>
     </body>
 </html>
