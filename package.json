@@ -1,0 +1,11 @@
+{
+  "name": "svg-animation",
+  "version": "0.0.0",
+  "description": "testing svg animations",
+  "main": "/",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alexander Skrabl",
+  "license": "ISC"
+}
